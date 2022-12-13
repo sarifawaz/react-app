@@ -32,10 +32,18 @@ const Popular = () => {
             <Splide
                 options={{
                     perPage: 4,
+                    breakpoints: {
+                        640 :{
+                            perPage: 2,
+                        },
+                        740: {
+                            perPage: 3,
+                        }
+                    },
                     drag: 'free',
                     arrows: false,
                     pagination: false,
-                    gap: '3rem'
+                    gap: '3rem',
                 }}>
             {
                 popular.map((item) => {

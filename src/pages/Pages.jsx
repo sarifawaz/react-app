@@ -11,10 +11,11 @@ const Pages = () => {
   return (
     <AnimatePresence mode='wait'>
       <Routes location={location} key={location.pathname}>
-          <Route path='/' element={<Home />} />
           <Route path='/cuisine/:type' element={<Cuisine />} />
           <Route path='/searched/:search' element={<Results />} />
           <Route path='/recipe/:name' element={<Recipe />} />
+          <Route path='/' element={<Home />} />
+          <Route path='/react-app' element={<Home />} />
       </Routes>
     </AnimatePresence>
   )
