@@ -33,11 +33,11 @@ const Popular = () => {
                 options={{
                     perPage: 4,
                     breakpoints: {
-                        640 :{
-                            perPage: 2,
-                        },
                         740: {
                             perPage: 3,
+                        },
+                        640 :{
+                            perPage: 2,
                         }
                     },
                     drag: 'free',
