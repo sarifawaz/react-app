@@ -38,7 +38,7 @@ const Popular = () => {
                         },
                         640 :{
                             perPage: 2,
-                        }
+                        },
                     },
                     drag: 'free',
                     arrows: false,
